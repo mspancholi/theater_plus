@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: desc;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+/* @font-face {
+    font-family: tickets;
+    src: url(../fonts/Rialto.ttf);
+} */
+
+@font-face {
+    font-family: title;
+    src: url(../fonts/WagnerZip-Change.ttf);
+}
+
+#showListings {
+    font-family: desc;
+}
+
+.showTitle {
+    font-family: title;
+}
+
+#userWindow {
+    font-family: desc;
+}
+
+#customerInfo {
+    font-family: desc;
+}
+
+.body {
+    max-height: 700px;
+    background-color: rgb(216, 67, 41);
+}
+
+.btn-sm {
+    border-radius: 25px
+}
+.carousel-innerimg {
+    width: 500px;
+    height: 506px;
+    border-radius: 20px;
+    border: solid;
+  }
+
+
+.carousel {
+    position: relative;
+    z-index: 5;
+}
+
+.carousel{
+    position: relative;
+    height: 500px;
+    top: -15px;
+    
+}
+
+#curtain {
+    position: absolute;
+    z-index: 7 !important;
+    top: -0px;
+    left: 0px;
+    width: 1500px;
+    height: 736px;
+}
+
+.tab-pane {
+    background: white;
+    border-radius: 10px;
+}
+
+.jumbotron {
+    position: relative;
+    z-index: 8;
+}
+
+#curtains {
+    z-index: 5 !important;
+}
+
+#email {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.rowSignin { 
+    position: relative;
+    z-index: 10px !important;
+}
+
+.input-group-text {
+    border-radius: 100px;
+}
+
+#first {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(216, 67, 41);
+    color: white;
+    text-align: center;
+    z-index: 10;
+    line-height: 60px;
+}
+
+#header {
+    font-size: 50px;
+}
+
+h6 {
+    color: rgb(94, 180, 127);
+}
+
+
+#last {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+.navbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(216, 67, 41);
+    color:white;
+    
+}
+
+.navbar-brand {
+    margin-left: 240px;
+}
+
+#newpic {
+    background-color: rgb(230, 141, 141);
+    background-repeat: no-repeat;
+    min-height: 760px;
+    z-index: 5;
+}
+
+#people {
+    width: 200px;
+}
+
+#purchase {
+    margin: 15px;
+    border-radius: 100px;
+}
+
+.rowSignin {
+    margin-top: 50px;
+    z-index: 10;
+    bottom: 50px;
+}
+
+#save {
+    margin: 15px;
+    border-radius: 100px;
+}
+
+#saved {
+    text-align: center;
+}
+
+#selected {
+    border-right: solid;
+    text-align: center;
+}
+
+#search {
+    border-radius: 100px;
+}
+
+td {
+    max-width: 100px;
+}
+
+.theaterinfo {
+  
+}
+
+#th1 {
+    width: 600px;
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    color: rgb(94, 180, 127);
+}
+
+#th2 {
+    width: 500px;
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    color: rgb(94, 180, 127);
+}
+
+#th3 {
+    width: 300px;
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    color: rgb(94, 180, 127);
+
+}
+
+#theatre {
+    background-color: rgb(58, 58, 56);
+    border-radius: 20px;
+    margin-bottom: 10px;
+   
+    -webkit-animation: slideInLeft 1s;
+    animation: slideInLeft 1s;
+    
+}
+
+#theatre:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.theatre {
+    background-color: rgb(58, 58, 56);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.theatre:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.theatrepics {
+    width: 200px;
+    height: 145px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: solid;
+}
+
+.theatretext {
+    padding: 60px;
+    color: white;
+}
+
+.theatretext:hover {
+    color: white;
+}
+
+#venues {
+    border-right: solid;
+    text-align: center;
+}
+
